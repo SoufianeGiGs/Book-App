@@ -77,7 +77,7 @@ class BooksExport implements FromCollection, WithMapping, WithHeadings
         return [
             'ID',
             'Titre Propre',
-            'ISB',
+            'ISBN',
             'Titre Parallele',
             'Titre Auteur Different',
             'Complement Titre',
