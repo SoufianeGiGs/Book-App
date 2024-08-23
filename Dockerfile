@@ -30,7 +30,7 @@ RUN npm run build
 
 WORKDIR /var/www
 
-# Copy the nginx configuration file
+
 COPY ./docker/nginx/nginx.conf /etc/nginx/nginx.conf
 COPY ./docker/nginx/default.conf /etc/nginx/conf.d/default.conf
 
